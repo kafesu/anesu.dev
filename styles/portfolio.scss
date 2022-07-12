@@ -1,0 +1,10 @@
+@import "./variables.scss";
+#portfolio{
+    @include section;
+    color: $primary;
+    background-color: white;
+
+    h2 {
+        @include section-heading;
+    }
+}

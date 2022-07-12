@@ -1,0 +1,25 @@
+@import "./variables.scss";
+nav {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+    background-color: $primary;
+    z-index: 2;
+
+    a {
+        @include a;
+        font-weight: 600;
+        color: burlywood;
+    }
+
+    ul {
+        display: flex;
+        list-style-type: none;
+
+        li {
+            margin: 0px 10px;
+        }
+    }
+}

@@ -1,0 +1,17 @@
+@import "./styles/navigation.scss";
+@import "./styles/header.scss";
+@import "./styles/skills.scss";
+@import "./styles/portfolio.scss";
+@import "./styles/contact.scss";
+@import "./styles/background.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}

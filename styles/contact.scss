@@ -1,0 +1,32 @@
+@import "./variables.scss";
+#contact {
+    @include section;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $primary;
+
+    h2 {
+        @include section-heading;
+        color: burlywood
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-width: 400px;
+
+        input, textarea, button {
+            padding: 10px;
+            margin: 20px 0px;
+            border: none;
+            background-color: white;
+        }
+
+        button {
+            background-color: $accent;
+        }
+    }
+}
